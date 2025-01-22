@@ -89,8 +89,10 @@ flutter:
     - assets/pdf/pdf5.pdf
     - assets/pdf/pdf6.pdf
     - assets/pdf/pdf8.pdf
+    - assets/pdf/menstrual_sikl.pdf
     - assets/images/training.png
     - assets/images/training_one.png
+    - assets/images/cup.webp
 
   # To add assets to your application, add an assets section, like this:
   # assets:

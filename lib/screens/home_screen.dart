@@ -1,4 +1,5 @@
 import 'package:appnew/screens/home/competition_page.dart';
+import 'package:appnew/screens/home/pdf_viewer.dart';
 import 'package:appnew/screens/home/recovery_page.dart';
 import 'package:appnew/screens/home/theory_page.dart';
 import 'package:appnew/screens/home/training_page.dart';
@@ -76,6 +77,18 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 Expanded(
+                  child: InkWell(
+                    onTap: () => {
+                      Navigator.of(context).pushNamed(PDFViewerScreen.route,
+                          arguments: "menstrual_sikl")
+                    },
+                    child: const MenuCard(
+                      title: 'Menstrual sikl',
+                      imageName: "assets/images/volleyball3.jpeg",
+                    ),
+                  ),
+                ),
+                Expanded(
                     child: Row(
                   children: [
                     Expanded(
@@ -86,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         },
                         child: const MenuCard(
                           title: 'Musobaqalar',
-                          imageName: "assets/images/volleyball3.jpeg",
+                          imageName: "assets/images/cup.webp",
                         ),
                       ),
                     ),
