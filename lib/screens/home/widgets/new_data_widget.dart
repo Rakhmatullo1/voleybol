@@ -79,29 +79,25 @@ class _NewDataWidgetState extends State<NewDataWidget> {
               key: _formKey,
               child: Column(
                 children: [
-                  const Expanded(
-                    child: CircleAvatar(
-                      radius: 40,
-                      backgroundImage: AssetImage(
-                          'assets/images/profile.webp'), // Replace with your image asset
-                    ),
+                  const CircleAvatar(
+                    radius: 40,
+                    backgroundImage: AssetImage(
+                        'assets/images/profile.webp'), // Replace with your image asset
                   ),
-                  Expanded(
-                    child: Container(
-                      margin: const EdgeInsets.all(30),
-                      alignment: const Alignment(0, 0),
-                      padding: const EdgeInsets.all(5),
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(10)),
-                      child: Text(
-                        data == null
-                            ? "Guest"
-                            : data!["first_name"]! + " " + data!["last_name"]!,
-                        style: const TextStyle(
-                            color: secondaryColor, fontSize: 18),
-                        softWrap: true,
-                      ),
+                  Container(
+                    margin: const EdgeInsets.all(30),
+                    alignment: const Alignment(0, 0),
+                    padding: const EdgeInsets.all(5),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(10)),
+                    child: Text(
+                      data == null
+                          ? "Guest"
+                          : data!["first_name"]! + " " + data!["last_name"]!,
+                      style:
+                          const TextStyle(color: secondaryColor, fontSize: 18),
+                      softWrap: true,
                     ),
                   ),
                   const SizedBox(height: 20),
