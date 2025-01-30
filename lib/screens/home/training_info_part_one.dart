@@ -17,6 +17,7 @@ class _TrainingInfoPartOneScreenState extends State<TrainingInfoPartOneScreen> {
   String name = "";
   Map data = {};
   bool isOnePlayed = false;
+  bool isGameNull = true;
 
   @override
   void didChangeDependencies() {
@@ -25,20 +26,17 @@ class _TrainingInfoPartOneScreenState extends State<TrainingInfoPartOneScreen> {
     name = data["name"];
     String videoUrl = data["value"]["video"]["url"] as String;
     String? videoId = YoutubePlayer.convertUrlToId(videoUrl);
-    String videouUrlOne= data["value"]["oyin"]["url"] as String;
-    String? videoIdone = YoutubePlayer.convertUrlToId(videouUrlOne);
+    if (data["value"]["oyin"]["url"] != null) {
+      isGameNull = false;
+      String videouUrlOne = data["value"]["oyin"]["url"];
+      String? videoIdone = YoutubePlayer.convertUrlToId(videouUrlOne);
+      _controllerOne = YoutubePlayerController(
+          initialVideoId: videoIdone!,
+          flags: const YoutubePlayerFlags(autoPlay: true));
+    }
     _controller = YoutubePlayerController(
-      initialVideoId: videoId!,
-      flags:  const YoutubePlayerFlags(
-        autoPlay: true
-      )
-    );
-    _controllerOne = YoutubePlayerController(
-      initialVideoId: videoIdone!,
-      flags:  const YoutubePlayerFlags(
-        autoPlay: true
-      )
-    );
+        initialVideoId: videoId!,
+        flags: const YoutubePlayerFlags(autoPlay: true));
   }
 
   @override
@@ -108,23 +106,25 @@ class _TrainingInfoPartOneScreenState extends State<TrainingInfoPartOneScreen> {
                 const SizedBox(height: 30),
                 const Divider(height: 0),
                 const SizedBox(height: 30),
-                const Text(
-                  "O'yin: ",
-                  style: TextStyle(
-                    color: accentColor,
-                    fontSize: 20,
+                if (!isGameNull) ...{
+                  const Text(
+                    "O'yin: ",
+                    style: TextStyle(
+                      color: accentColor,
+                      fontSize: 20,
+                    ),
                   ),
-                ),
-                const SizedBox(height: 20),
-                YoutubePlayer(
-                  controller: _controllerOne,
-                  showVideoProgressIndicator: true,
-                  progressIndicatorColor: accentColor,
-                  progressColors: const ProgressBarColors(
-                    playedColor: Color.fromARGB(150, 255, 127, 80),
-                    handleColor: accentColor,
+                  const SizedBox(height: 20),
+                  YoutubePlayer(
+                    controller: _controllerOne,
+                    showVideoProgressIndicator: true,
+                    progressIndicatorColor: accentColor,
+                    progressColors: const ProgressBarColors(
+                      playedColor: Color.fromARGB(150, 255, 127, 80),
+                      handleColor: accentColor,
+                    ),
                   ),
-                ),
+                }
               ],
             ),
           ),

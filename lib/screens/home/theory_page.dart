@@ -27,6 +27,16 @@ List<Map<String, String>> data = [
     "file_path": "pdf8",
     "name": "Voleybol sport va harakatli o'yinlarni o'qitish metodikasi",
     "image_path": "assets/images/volleyball2.jpg"
+  },
+  {
+    "file_path": "pdf7",
+    "name": "Voleybol nazariyasi va uslubiyati (darslik)",
+    "image_path": "assets/images/volleyball3.jpeg"
+  },
+  {
+    "file_path": "pdf9",
+    "name": "МАССОВЫЙ ВОЛЕЙБОЛ",
+    "image_path": "assets/images/volleyball5.webp"
   }
 
 ];

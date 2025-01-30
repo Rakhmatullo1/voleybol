@@ -14,10 +14,10 @@ class HomeScreen extends StatefulWidget {
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
-const Color backGroungColor = Color.fromRGBO(244, 231, 211, 1);
+const Color backGroungColor = Color.fromRGBO(181, 247, 181, 1);
 const Color primaryColor = Color.fromRGBO(0, 123, 255, 1);
-const Color secondaryColor = Color.fromRGBO(255, 127, 80, 1);
-const Color accentColor = Color.fromRGBO(255, 127, 80, 1);
+const Color secondaryColor = Color.fromRGBO(53, 94, 59, 1);
+const Color accentColor = Color.fromRGBO(53, 94, 59, 1);
 
 class _HomeScreenState extends State<HomeScreen> {
   @override
@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
           appBar: AppBar(
             title: const Text(
-              'UV-Training',
+              'Flyball',
               style: TextStyle(
                   color: secondaryColor,
                   fontWeight: FontWeight.bold,
@@ -83,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           arguments: "menstrual_sikl")
                     },
                     child: const MenuCard(
-                      title: 'Menstrual sikl',
+                      title: 'Menstrul davrda mashg\'ulotlar',
                       imageName: "assets/images/volleyball3.jpeg",
                     ),
                   ),
