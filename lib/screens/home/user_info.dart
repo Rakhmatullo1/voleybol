@@ -13,7 +13,6 @@ class UserInfoForm extends StatefulWidget {
 }
 
 class _UserInfoFormState extends State<UserInfoForm> {
-
   final DatabaseHelper dbHelper = DatabaseHelper();
 
   @override

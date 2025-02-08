@@ -17,6 +17,8 @@ class _NewDataWidgetState extends State<NewDataWidget> {
   final TextEditingController _heightController = TextEditingController();
 
   final TextEditingController _weightController = TextEditingController();
+  final TextEditingController _firstNameController = TextEditingController();
+  final TextEditingController _lastNameController = TextEditingController();
 
   final TextEditingController _ageController = TextEditingController();
   final RegExp regExp = RegExp("\\d+");
@@ -26,11 +28,15 @@ class _NewDataWidgetState extends State<NewDataWidget> {
     _heightController.dispose();
     _weightController.dispose();
     _ageController.dispose();
+    _firstNameController.dispose();
+    _lastNameController.dispose();
     super.dispose();
   }
 
-  void _submitForm(String firstName, String lastName, String id) async {
+  void _submitForm(String id) async {
     if (_formKey.currentState!.validate()) {
+      String firstName = _firstNameController.text;
+      String lastName = _lastNameController.text;
       String age = _ageController.text;
       String weight = _weightController.text;
       String height = _heightController.text;
@@ -68,8 +74,6 @@ class _NewDataWidgetState extends State<NewDataWidget> {
           }
 
           Map<String, dynamic> data = snapshot.data!;
-          String firstName = data["first_name"];
-          String lastName = data["last_name"];
           int id = data["id"];
 
           return Container(
@@ -79,26 +83,38 @@ class _NewDataWidgetState extends State<NewDataWidget> {
               key: _formKey,
               child: Column(
                 children: [
-                  const CircleAvatar(
-                    radius: 40,
-                    backgroundImage: AssetImage(
-                        'assets/images/profile.webp'), // Replace with your image asset
+                  Row(
+                    children: [
+                      text("Ism"),
+                      Expanded(
+                        child: TextFormField(
+                            controller: _firstNameController,
+                            decoration: getDecoration("Ismni kiriting"),
+                            validator: (value) {
+                              if (value == null || value.isEmpty) {
+                                return "Ismni kiriting";
+                              }
+                              return null;
+                            }),
+                      ),
+                    ],
                   ),
-                  Container(
-                    margin: const EdgeInsets.all(30),
-                    alignment: const Alignment(0, 0),
-                    padding: const EdgeInsets.all(5),
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(10)),
-                    child: Text(
-                      data == null
-                          ? "Guest"
-                          : data!["first_name"]! + " " + data!["last_name"]!,
-                      style:
-                          const TextStyle(color: secondaryColor, fontSize: 18),
-                      softWrap: true,
-                    ),
+                  const SizedBox(height: 20),
+                  Row(
+                    children: [
+                      text("Familiya"),
+                      Expanded(
+                        child: TextFormField(
+                            controller: _lastNameController,
+                            decoration: getDecoration("Familiyani kiriting"),
+                            validator: (value) {
+                              if (value == null || value.isEmpty) {
+                                return "Familiyani kiriting";
+                              }
+                              return null;
+                            }),
+                      ),
+                    ],
                   ),
                   const SizedBox(height: 20),
                   Row(
@@ -145,7 +161,7 @@ class _NewDataWidgetState extends State<NewDataWidget> {
                   const SizedBox(height: 20),
                   Center(
                     child: ElevatedButton(
-                      onPressed: () => _submitForm(firstName, lastName, "$id"),
+                      onPressed: () => _submitForm("$id"),
                       style: ElevatedButton.styleFrom(
                           backgroundColor: accentColor),
                       child: const Text(

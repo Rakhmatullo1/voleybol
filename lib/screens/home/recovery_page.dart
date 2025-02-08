@@ -1,4 +1,5 @@
 import 'package:appnew/screens/home_screen.dart';
+import 'package:appnew/screens/static.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -11,63 +12,90 @@ class RecoveryScreen extends StatefulWidget {
 }
 
 class _RecoveryScreenState extends State<RecoveryScreen> {
-  Stream<QuerySnapshot> _getTrainingsStream() {
-    return FirebaseFirestore.instance.collection('recovery').snapshots();
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: backGroungColor,
-        iconTheme: const IconThemeData(color: accentColor),
-        title: const Text(
-          'Qayta tiklanish',
-          style: TextStyle(
-              color: secondaryColor, fontWeight: FontWeight.bold, fontSize: 24),
+        appBar: AppBar(
+          backgroundColor: backGroungColor,
+          iconTheme: const IconThemeData(color: accentColor),
+          title: const Text(
+            'Qayta tiklanish',
+            style: TextStyle(
+                color: secondaryColor,
+                fontWeight: FontWeight.bold,
+                fontSize: 24),
+          ),
         ),
-      ),
-      backgroundColor: backGroungColor,
-      body: StreamBuilder<QuerySnapshot>(
-          stream: _getTrainingsStream(),
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const Center(
-                  child: CircularProgressIndicator(
-                color: accentColor,
-              ));
-            }
-
-            if (snapshot.hasError) {
-              return Center(child: Text('Error: ${snapshot.error}'));
-            }
-
-            if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
-              return const Center(child: Text('No months found.'));
-            }
-            var data = snapshot.data!.docs[0].data() as Map<String, dynamic>;
-            return Container(
-              width: MediaQuery.of(context).size.width,
-              padding: const EdgeInsets.symmetric(horizontal: 20),
-              child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      data['header'],
-                      style: const TextStyle(color: secondaryColor, fontWeight: FontWeight.bold),
-                      textAlign: TextAlign.center,
-                    ),
-                    Text(
-                      data['info'],
-                      style: const TextStyle(color: secondaryColor),
-                      textAlign: TextAlign.justify,
-                    ),
-                  ],
+        backgroundColor: backGroungColor,
+        body: Container(
+          width: MediaQuery.of(context).size.width,
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          child: SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                getHeader(
+                    'Malakali voleybolchi qizlarning qayta tiklanish jarayoni'),
+                getParagraphStyle(p1),
+                getParagraphStyle(p2),
+                getParagraphStyle(p3),
+                getFrame("r5"),
+                Container(
+                  width: MediaQuery.of(context).size.width,
+                  alignment: const Alignment(0, 0),
+                  child: getHeader("Jismoniy tiklanish vositalari"),
                 ),
-              ),
-            );
-          }),
+                getParagraphStyle(p4),
+                getParagraphStyle(p5),
+                getFrame("r4"),
+                getParagraphStyle(p7),
+                getParagraphStyle(p8),
+                getHeader(p9),
+                getParagraphStyle(p10),
+                getFrame("r3"),
+                getParagraphStyle(p11),
+                getParagraphStyle(p12),
+                getFrame("r2"),
+                getHeader(
+                    "Sportchi organizmini tiklashning zamonaviy usullari."),
+                getParagraphStyle(p13),
+                getFrame("r1")
+              ],
+            ),
+          ),
+        ));
+  }
+
+  Text getHeader(String text) {
+    return Text(
+      '\n$text\n',
+      style: const TextStyle(
+        color: secondaryColor,
+        fontWeight: FontWeight.bold,
+        fontSize: 20
+      ),
+      textAlign: TextAlign.center,
+    );
+  }
+
+  RichText getParagraphStyle(String text) {
+    return RichText(
+      textAlign: TextAlign.justify,
+      text: TextSpan(
+        children: [
+          const WidgetSpan(child: SizedBox(width: 35)),
+          TextSpan(text: text),
+        ],
+        style: const TextStyle(
+            color: secondaryColor, fontFamily: 'Montserrat', fontSize: 16),
+      ),
+    );
+  }
+
+  Padding getFrame(String fileName) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 15),
+      child: Image.asset("assets/images/$fileName.jpeg"),
     );
   }
 }

@@ -1,6 +1,7 @@
 import 'package:appnew/helper/db_helper.dart';
 import 'package:appnew/screens/home/competition_info_page.dart';
 import 'package:appnew/screens/home/competition_page.dart';
+import 'package:appnew/screens/home/menstrual.dart';
 import 'package:appnew/screens/home/pdf_viewer.dart';
 import 'package:appnew/screens/home/recovery_page.dart';
 import 'package:appnew/screens/home/theory_page.dart';
@@ -66,7 +67,9 @@ class _MyAppState extends State<MyApp> {
             const TrainingInfoPartOneScreen(),
         CompetitionScreen.route: (_) => const CompetitionScreen(),
         CompetitionInfoScreen.route: (_) => const CompetitionInfoScreen(),
-        RecoveryScreen.route: (_) => const RecoveryScreen()
+        RecoveryScreen.route: (_) => const RecoveryScreen(),
+        MenstrualSiklScreen.rountName: (_) => const MenstrualSiklScreen()
+
       },
       home: FutureBuilder(
         future: _dbHelper.existsUser(),

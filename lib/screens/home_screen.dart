@@ -1,4 +1,5 @@
 import 'package:appnew/screens/home/competition_page.dart';
+import 'package:appnew/screens/home/menstrual.dart';
 import 'package:appnew/screens/home/pdf_viewer.dart';
 import 'package:appnew/screens/home/recovery_page.dart';
 import 'package:appnew/screens/home/theory_page.dart';
@@ -72,15 +73,15 @@ class _HomeScreenState extends State<HomeScreen> {
                         .pushNamed(TrainingListScreen.routeName),
                     child: const MenuCard(
                       title: 'Mening mashg\'ulotlarim',
-                      imageName: "assets/images/valleyball4.jpeg",
+                      imageName: "assets/images/my_trainings.jpg",
                     ),
                   ),
                 ),
                 Expanded(
                   child: InkWell(
                     onTap: () => {
-                      Navigator.of(context).pushNamed(PDFViewerScreen.route,
-                          arguments: "menstrual_sikl")
+                      Navigator.of(context)
+                          .pushNamed(MenstrualSiklScreen.rountName)
                     },
                     child: const MenuCard(
                       title: 'Menstrul davrda mashg\'ulotlar',
@@ -109,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             .pushNamed(RecoveryScreen.route),
                         child: const MenuCard(
                             title: 'Qayta tiklanish',
-                            imageName: "assets/images/volleyball5.webp"),
+                            imageName: "assets/images/recover.jpg"),
                       ),
                     )
                   ],
