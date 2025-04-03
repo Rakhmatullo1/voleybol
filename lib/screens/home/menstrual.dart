@@ -3,12 +3,12 @@ import 'package:appnew/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 List<Map<String, String>> data = [
-  {"file_path": "ortacha", "name": "Menstrual oldi fazasi-o'rta"},
-  {"file_path": "12kichik", "name": "Mensturatsiya fazasining 1-2 kuni-kichik"},
-  {"file_path": "35kichik", "name": "Mensturatsiya fazasining 3-5 kuni-o'rta"},
-  {"file_path": "sezilarli", "name": "Postmenstrual faza-o'rta"},
-  {"file_path": "katta", "name": "Ovulyator faza- o'rta"},
-  {"file_path": "ortacha", "name": "Postovulyator faza-katta"}
+  {"file_path": "pdfortacha", "name": "Menstrual oldi fazasi-o'rta"},
+  {"file_path": "pdf12kichik", "name": "Mensturatsiya fazasining 1-2 kuni-kichik"},
+  {"file_path": "pdf35kichik", "name": "Mensturatsiya fazasining 3-5 kuni-o'rta"},
+  {"file_path": "pdfsezilarli", "name": "Postmenstrual faza-o'rta"},
+  {"file_path": "pdfkatta", "name": "Ovulyator faza- o'rta"},
+  {"file_path": "pdfortacha", "name": "Postovulyator faza-katta"}
 ];
 
 class MenstrualSiklScreen extends StatelessWidget {

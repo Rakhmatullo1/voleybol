@@ -95,12 +95,12 @@ flutter:
     - assets/pdf/pdf7.pdf
     - assets/pdf/pdf9.pdf
 
-    - assets/pdf/ortacha.pdf
-    - assets/pdf/12kichik.pdf
-    - assets/pdf/35kichik.pdf
-    - assets/pdf/odatiy.pdf
-    - assets/pdf/katta.pdf
-    - assets/pdf/sezilarli.pdf
+    - assets/pdf/pdfortacha.pdf
+    - assets/pdf/pdf12kichik.pdf
+    - assets/pdf/pdf35kichik.pdf
+    - assets/pdf/pdfodatiy.pdf
+    - assets/pdf/pdfkatta.pdf
+    - assets/pdf/pdfsezilarli.pdf
     - assets/images/training.png
     - assets/images/training_one.png
     - assets/images/cup.webp
