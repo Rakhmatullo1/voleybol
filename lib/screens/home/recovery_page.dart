@@ -1,6 +1,5 @@
 import 'package:appnew/screens/home_screen.dart';
 import 'package:appnew/screens/static.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class RecoveryScreen extends StatefulWidget {

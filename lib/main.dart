@@ -11,6 +11,7 @@ import 'package:appnew/screens/home/training_info_part.dart';
 import 'package:appnew/screens/home/training_info_part_one.dart';
 import 'package:appnew/screens/home/training_page.dart';
 import 'package:appnew/screens/home/user_info.dart';
+import 'package:appnew/screens/home/video_screen.dart';
 import 'package:appnew/screens/home_screen.dart';
 import 'package:appnew/screens/login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -68,8 +69,9 @@ class _MyAppState extends State<MyApp> {
         CompetitionScreen.route: (_) => const CompetitionScreen(),
         CompetitionInfoScreen.route: (_) => const CompetitionInfoScreen(),
         RecoveryScreen.route: (_) => const RecoveryScreen(),
-        MenstrualSiklScreen.rountName: (_) => const MenstrualSiklScreen()
-
+        MenstrualSiklScreen.rountName: (_) => const MenstrualSiklScreen(),
+        VideosScreenMore.route: (_) => const VideosScreenMore(),
+        VideoPlayerScreen.route: (_) => const VideoPlayerScreen()
       },
       home: FutureBuilder(
         future: _dbHelper.existsUser(),

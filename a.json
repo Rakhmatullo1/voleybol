@@ -1,418 +1,91 @@
 [
-    {
-        "key": "1-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": null
-                }
+  {
+    "key": "1-kun",
+    "value": {
+      "entrance": "10-15 daqiqa davomida saflanish, salomlashish, tanani  qizdiruvchi mashqlar va xar xilsusulda yengil yugurish turlarini bajarish.",
+      "main": {
+        "item1": {
+          "key": "1-mashg'gulot",
+          "table": [
+            {
+              "key": "Qizdirish mashqlari xar xil tezlikda yugurish",
+              "duration": "20-daqiqa",
+              "suggestion": "Yugurish davomida gavdani tik holatda bo'lishi lozim."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "2-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "Umumiy jismoniy mashqlar (sport rezinasi bilan oyoq va qo'l mushklariga ishlash)",
+              "duration": "30-daqiqa",
+              "suggestion": "Turgan holatda qo'l mushaklari uchun va oyoq mushaklari uchun ishlanadi."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "3-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "Turli xil sakrash mashqlari",
+              "duration": "55-60 daqiqa",
+              "suggestion": "Mashqni bajarish jarayonida maksimal balandlikka sakrash va maxsus chidamkorlikni takomillashtirish kerak."
+            }
+          ],
+          "video": "",
+          "description": "Hello"
+        },
+        "item2": {
+          "key": "2-mashg'gulot",
+          "table": [
+            {
+              "key": "Qizdirish mashqlari xar xil tezlikda yugurish ",
+              "duration": "15-daqiqa",
+              "suggestion": "Yugurish davomida gavdani tik holatda bo'lishi lozim."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "4-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "Darsning tayyorgarlik qismida umumiy privojlantirish mashqlari",
+              "duration": "15-daqiqa",
+              "suggestion": "Mashqlarni bajarish davomida darsning asosiy qismiga, xar bir tana a’zosini  tayyorlash va qizishga e’tibor qaratish lozim"
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "5-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "Turli xil sakrash mashqlari",
+              "duration": "5-7 daqiqa",
+              "suggestion": "Mashqni bajarish jarayonida maksimal balandlikka sakrash kerak bo‘ladi."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "6-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "To‘pni yuqoridan pastdan juftlikda uzatish (juftlikda)",
+              "duration": "7 daqiqa",
+              "suggestion": "Mashg‘ulot jarayonida joyda harakatlanib turish kerak."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "7-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "Ximoyada o‘ynash (juftlikda)",
+              "duration": "10 daqiqa",
+              "suggestion": "Xujumchi uzatgan  xar bir to‘pni aniqlik bilan qabul qilib o‘ziga qaytarishi  kerak."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "8-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "To‘pni qabul qilish",
+              "duration": "15-daqiqa",
+              "suggestion": "Xujumchi jamoa kiritgan xar bir to‘pni aniqlik bilan qabul qilib bog‘lovchiga yetkazib berish kerak."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "9-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "Xujum zarbalari turli yo‘llar bilan barcha zonalardan",
+              "duration": "20 daqiqa",
+              "suggestion": "Maydondagi xar bir zonadan xujum zarbalarini amalga oshirish kerak bo‘ladi."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "10-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
+            {
+              "key": "Blokka qarshi xujum zarbalari",
+              "duration": "20 daqiqa",
+              "suggestion": "Raqib jamoa qo‘ygan to‘siqqa xujum qilib to‘pni raqib jamoa maydoniga tushirish kerak bo‘ladi."
             },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
+            {
+              "key": "Xujum zarbalariga qarshi blok qo‘yish",
+              "duration": "20 daqiqa",
+              "suggestion": "Raqib tomonidan qilinayotgan xujumga blok qo‘yish."
+            }
+          ],
+          "video": "",
+          "description": "Hello"
+        },
+        "item3": {
+          "key": "Harakatli o'yinlar",
+          "table": {},
+          "video": "",
+          "description": "Hello"
         }
-    },
-    {
-        "key": "11-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "12-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "13-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "14-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "15-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "16-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "17-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "18-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "19-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "20-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "21-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "22-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "23-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "24-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "25-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
-    },
-    {
-        "key": "26-mashg'ulot",
-        "value": {
-            "entrance": "Kirish qismi 10-15 daqiqa davom etadi:\n\tSaflanish, navbatchi axborotini qabul qilish, salomlashish, davomatni va gigiyenik xolatni nazorat qilish, organiladigan usulni e'lon qilish, diqqatni jalb qiluvchi va saf mashqlarini bajarish.\n\tMaydon bo'ylab yurish: qo'llarni yuqoriga ko'tarib oyoq uchlarida, qo'llar belda tovonlarda, oyoqning yon qismlarida, sportcha yurish.\n\tYugurish: o'ng, chap va orqa tomonlar bilan, chalishtirma qadamlar bilan yugurish.\n\tUmumiy rivojlantiruvchi mashqlar: bo'yin, yelka, qo'l, bel va oyoq muskullariga beriladigan mashqlar.\n\tHarakatli o'yinlar.\nYakuniy qism:\n\tO'quvchilarni qayta saflash, maydon bo'ylab atsa yugurish, nafas rostlovchi hamda diqqatni oshiruvchi mashqlar.\n\tTiklanish mashqlari: egiluvchanlik mashqlari, qorin mushaklariga beriladigan mashqlar, gimnastik narvonda bajariladigan mashqlar.\n\tMashg'ulot davomidagi yutuq va kamchiliklarni taxlil etish, mashg'ulotga yaxshi qatnashgan o'quvchilarni rag'batlantirish va yol qo'yilgan kamchiliklarni tushuntirish.\n\tO'rganilgan usulga doir uyga topshiriq berish.",
-            "main": {
-                "dars": "hello 1",
-                "video": {
-                    "url": "https://www.youtube.com/watch?v=N7DbncIzMFY"
-                },
-                "oyin": {
-                    "url": "https://www.youtube.com/watch?v=nX6_z3xTYiA&list=RDnX6_z3xTYiA&start_radio=1"
-                }
-            },
-            "final": " Yurak qisqarish soni dastlabki holatga qaytarish: Cho'zilish mashqlari. Chuqur nafas olib nafas chiqarish. Shu holatda o'pkani to'ldirib nafas oling, bir necha soniya ushlab turing va shoshilmasdan nafas chiqaring. Qorin bilan nafas oling. Tizza bilan yerga o'tiring, qo'llar belga qo'ying. nafas olishda iliji boricha qorinni oldinga chiqaring va bir necha soniya ushlab turing. Keyin shoshilmasdan nafas chiqaring."
-        }
+      },
+      "final": "10-15 daqiqa davomida yengil yurish va nafas rostlash, chuqur nafas olib nafas chiqarish mashqlari.  Cho'ziluvchanlik mashqlari. Bajarilgan mashg'ulotlardagi xato va kamchiliklarni aytish va to'g'rlash. Uyga vazifa berish."
     }
+  }
 ]

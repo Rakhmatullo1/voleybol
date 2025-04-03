@@ -31,7 +31,7 @@ class _TrainingExtraInfoScreenState extends State<TrainingExtraInfoScreen> {
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
-      onWillPop:  () async {
+      onWillPop: () async {
         return false;
       },
       child: Scaffold(
@@ -44,7 +44,8 @@ class _TrainingExtraInfoScreenState extends State<TrainingExtraInfoScreen> {
               icon: const Icon(Icons.arrow_back_ios)),
           iconTheme: const IconThemeData(color: accentColor),
           title: Text(data["key"],
-              style: const TextStyle(color: accentColor, fontWeight: FontWeight.bold)),
+              style: const TextStyle(
+                  color: accentColor, fontWeight: FontWeight.bold)),
           centerTitle: true,
           backgroundColor: backGroungColor,
         ),
@@ -81,8 +82,8 @@ class _TrainingExtraInfoScreenState extends State<TrainingExtraInfoScreen> {
                 ),
                 child: const Text(
                   'Kirish qismi',
-                  style:
-                      TextStyle(color: accentColor, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      color: accentColor, fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(
@@ -90,11 +91,9 @@ class _TrainingExtraInfoScreenState extends State<TrainingExtraInfoScreen> {
               ),
               OutlinedButton(
                 onPressed: () {
-                  Navigator.of(context).pushNamed(TrainingInfoPartOneScreen.route,
-                      arguments: {
-                        "name": "Asosiy qism",
-                        "value": data["value"]["main"]
-                      });
+                  Navigator.of(context).pushNamed(
+                      TrainingInfoPartOneScreen.route,
+                      arguments: data["value"]["main"]);
                 },
                 style: OutlinedButton.styleFrom(
                   fixedSize: const Size(200, 65),
@@ -103,8 +102,8 @@ class _TrainingExtraInfoScreenState extends State<TrainingExtraInfoScreen> {
                 ),
                 child: const Text(
                   'Asosiy qism',
-                  style:
-                      TextStyle(color: accentColor, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      color: accentColor, fontWeight: FontWeight.bold),
                 ),
               ),
               const SizedBox(
@@ -129,8 +128,8 @@ class _TrainingExtraInfoScreenState extends State<TrainingExtraInfoScreen> {
                 ),
                 child: const Text(
                   'Yakuniy qism',
-                  style:
-                      TextStyle(color: accentColor, fontWeight: FontWeight.bold),
+                  style: TextStyle(
+                      color: accentColor, fontWeight: FontWeight.bold),
                 ),
               ),
             ],

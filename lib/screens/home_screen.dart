@@ -1,6 +1,5 @@
 import 'package:appnew/screens/home/competition_page.dart';
 import 'package:appnew/screens/home/menstrual.dart';
-import 'package:appnew/screens/home/pdf_viewer.dart';
 import 'package:appnew/screens/home/recovery_page.dart';
 import 'package:appnew/screens/home/theory_page.dart';
 import 'package:appnew/screens/home/training_page.dart';
